@@ -1,0 +1,36 @@
+{
+  "name": "commonGulp",
+  "version": "1.0.0",
+  "description": "a simple web project build in gulp",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "clean": "gulp clean",
+    "watch": "gulp watch",
+    "connect": "gulp connect",
+    "build": "gulp build"
+  },
+  "author": "Aaron",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-connect": "^5.0.0",
+    "gulp-file-include": "0.13.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-svgicons2svgfont": "^4.0.2",
+    "gulp-uglify": "^3.0.0",
+    "http-proxy-middleware": "^0.18.0",
+    "require-dir": "^1.0.0"
+  }
+}
